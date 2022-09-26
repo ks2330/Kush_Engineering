@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+  /* the slides */
+  .slick-slide {
+      margin: 0 10px;
+  }
+  .slick-prev:before, .slick-next:before
+{
+color:#000;
+}
+
+  </style>
+</head>
+<body>
+
+<div class="container mt-3">
+<div class="row responsive">
+
+ <div class="col-lg-4">
+  <div class="card">
+    <img class="card-img-top" src="images/Main Body.PNG" alt="Card image" width="150" height="350" href="generic - Internship.hmtl#">
+    <div class="card-body">   
+      <p class="card-text">A description of what i did at A&P as a Design Engineer Intern</p>
+      <a href="generic - Internship.hmtl#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+ </div>
+ <div class="col-lg-4">
+  <div class="card">
+    <img class="card-img-top" src="images/ray tracing render.PNG" alt="Card image" width="500" height="300">
+    <div class="card-body">
+      <p class="card-text">Projects i have done while learning to use Siemens NX using Youtube Videos</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+ </div>
+ <div class="col-lg-4">
+  <div class="card">
+    <img class="card-img-top" src="images/ray tracing render.PNG" alt="Card image" width="500" height="300">
+    <div class="card-body">
+      <p class="card-text">Projects i have tried while learning CFD Inventor from online courses and what i learn in Univeristy as part of Fluid Mechanics </p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+ </div>
+ <div class="col-lg-4">
+  <div class="card">
+    <img class="card-img-top" src="images/bg.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+ </div>
+ <div class="col-lg-4">
+  <div class="card">
+    <img class="card-img-top" src="images/bg.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+ </div>
+</div>  
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+$('.responsive').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+</script>
+</body>
+</html>
